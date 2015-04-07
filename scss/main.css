@@ -4,6 +4,8 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+@import url(http://fonts.googleapis.com/css?family=Raleway:600|Hind);
+@import url(http://fonts.googleapis.com/css?family=Raleway:600|Hind);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -357,23 +359,11 @@ th {
   padding: 0; }
 
 /* Globals.scss */
-@font-face {
-  font-family: 'titilliumlight';
-  src: url("../webfonts/Titillium/Titillium-Light-webfont.eot");
-  src: url("../webfonts/Titillium/Titillium-Light-webfont.eot?#iefix") format("embedded-opentype"), url("../webfonts/Titillium/Titillium-Light-webfont.woff2") format("woff2"), url("../webfonts/Titillium/Titillium-Light-webfont.woff") format("woff"), url("../webfonts/Titillium/Titillium-Light-webfont.ttf") format("truetype"), url("../webfonts/Titillium/Titillium-Light-webfont.svg#titilliumlight") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'titilliumblack';
-  src: url("../webfonts/Titillium/Titillium-Black-webfont.eot");
-  src: url("../webfonts/Titillium/Titillium-Black-webfont.eot?#iefix") format("embedded-opentype"), url("../webfonts/Titillium/Titillium-Black-webfont.woff2") format("woff2"), url("../webfonts/Titillium/Titillium-Black-webfont.woff") format("woff"), url("../webfonts/Titillium/Titillium-Black-webfont.ttf") format("truetype"), url("../webfonts/Titillium/Titillium-Black-webfont.svg#titilliumblack") format("svg");
-  font-weight: normal;
-  font-style: normal; }
 /* Base.scss */
 body {
   background-color: #fff;
   color: #262626;
-  font-family: 'titilliumlight', 'helvetica', 'verdana', sans-serif;
+  font-family: 'Hind', 'helvetica', 'verdana', sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 22px;
@@ -382,7 +372,7 @@ body {
   padding: 0 10px; }
 
 h1, h2, h3 {
-  font-family: 'titilliumblack', 'helvetica', 'verdana', sans-serif;
+  font-family: 'Raleway', 'helvetica', 'verdana', sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1; }
@@ -493,7 +483,7 @@ abbr[title] {
 
 .street-address:before {
   content: "a. ";
-  font-family: 'titilliumblack', 'helvetica', 'verdana', sans-serif;
+  font-family: 'Raleway', 'helvetica', 'verdana', sans-serif;
   font-weight: normal;
   font-style: normal; }
 
@@ -501,7 +491,7 @@ abbr[title] {
   display: block; }
   .tel:before {
     content: "p. ";
-    font-family: 'titilliumblack', 'helvetica', 'verdana', sans-serif;
+    font-family: 'Raleway', 'helvetica', 'verdana', sans-serif;
     font-weight: normal;
     font-style: normal; }
 
